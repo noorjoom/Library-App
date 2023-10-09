@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#addBookForm {
+    width: 300px;
+    margin: 0 auto;
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+#addBookForm input[type="text"],
+#addBookForm input[type="number"],
+#addBookForm select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#addButton {
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+table button.remove-button:hover {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style for the "Read" and "Not Read" buttons */
+table button.read-button {
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/* Green color for "Read" button */
+table button.read-button.read {
+    background-color: green;
+    color: white;
+}
+
+/* Red color for "Not Read" button */
+table button.read-button.not-read {
+    background-color: red;
+    color: white;
+}
